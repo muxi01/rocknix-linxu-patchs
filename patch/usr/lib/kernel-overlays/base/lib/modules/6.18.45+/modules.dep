@@ -11,9 +11,17 @@ kernel/lib/crypto/libchacha20poly1305.ko: kernel/lib/crypto/libchacha.ko kernel/
 kernel/lib/crypto/libcurve25519.ko:
 kernel/lib/crypto/libpoly1305.ko:
 kernel/lib/lz4/lz4hc_compress.ko:
+kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi-i2s-audio.ko:
+kernel/drivers/gpu/drm/bridge/display-connector.ko:
 kernel/drivers/block/nbd.ko:
 kernel/drivers/block/zram/zram.ko: kernel/lib/lz4/lz4hc_compress.ko kernel/mm/zsmalloc.ko
 kernel/drivers/misc/eeprom/eeprom_93cx6.ko:
+kernel/drivers/net/wireless/broadcom/b43/b43.ko:
+kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko:
+kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
 kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko: kernel/drivers/misc/eeprom/eeprom_93cx6.ko
 kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko:
 kernel/drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko: kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko
@@ -163,6 +171,7 @@ kernel/drivers/bluetooth/btmtk.ko: kernel/net/bluetooth/bluetooth.ko
 kernel/sound/core/seq/snd-seq-midi.ko: kernel/sound/core/seq/snd-seq-midi-event.ko kernel/sound/core/snd-rawmidi.ko
 kernel/sound/core/seq/snd-seq-midi-event.ko:
 kernel/sound/core/snd-rawmidi.ko:
+kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko:
 kernel/net/802/psnap.ko: kernel/net/llc/llc.ko
 kernel/net/802/stp.ko: kernel/net/llc/llc.ko
 kernel/net/netfilter/nfnetlink.ko:

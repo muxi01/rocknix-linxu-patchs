@@ -18,6 +18,7 @@ alias symbol:rtw_bf_remove_bfee_su rtw88_core
 alias symbol:rtl_efuse_shadow_map_update rtlwifi
 alias symbol:rtw89_phy_gen_be rtw89_core
 alias symbol:snd_rawmidi_free snd_rawmidi
+alias symbol:brcmf_fil_cmd_data_get brcmfmac
 alias symbol:rtw_debug_mask rtw88_core
 alias symbol:rtl_init_rfkill rtlwifi
 alias symbol:snd_rawmidi_proceed snd_rawmidi
@@ -37,6 +38,7 @@ alias symbol:tun_get_tx_ring tun
 alias symbol:rtw88xxa_efuse_grant rtw88_88xxa
 alias symbol:btmtk_usb_subsys_reset btmtk
 alias symbol:rtw89_phy_write_rf_v2 rtw89_core
+alias symbol:brcmf_fwvid_register_vendor brcmfmac
 alias symbol:btintel_print_fseq_info btintel
 alias symbol:stp_proto_unregister stp
 alias symbol:rtw_dump_reg rtw88_core
@@ -95,6 +97,7 @@ alias symbol:rtw89_tas_chanctx_cb rtw89_core
 alias symbol:__hci_cmd_sync_sk bluetooth
 alias symbol:rtw89_usb_disconnect rtw89_usb
 alias symbol:nft_parse_register_store nf_tables
+alias symbol:brcmu_pktq_pflush brcmutil
 alias symbol:btintel_set_quality_report btintel
 alias symbol:rtw_fw_inform_rfk_status rtw88_core
 alias symbol:rmi_driver_suspend rmi_core
@@ -108,6 +111,7 @@ alias symbol:btintel_bootloader_setup_tlv btintel
 alias symbol:rtw89_db_to_linear rtw89_core
 alias symbol:rtw89_fw_h2c_ba_cam_v1 rtw89_core
 alias symbol:rtw_power_mode_change rtw88_core
+alias symbol:brcmf_fweh_event_name brcmfmac
 alias symbol:btintel_enter_mfg btintel
 alias symbol:llc_set_station_handler llc
 alias symbol:l2cap_chan_connect bluetooth
@@ -144,6 +148,7 @@ alias symbol:br_forward bridge
 alias symbol:rtw_phy_read_rf_sipi rtw88_core
 alias symbol:rtl92c_phy_set_bb_reg rtl8192c_common
 alias symbol:hchacha_block libchacha
+alias symbol:brcmu_pktq_init brcmutil
 alias symbol:hci_uart_tx_wakeup hci_uart
 alias symbol:rtl92c_phy_set_rfpath_switch rtl8192c_common
 alias symbol:__hci_cmd_sync_ev bluetooth
@@ -170,6 +175,7 @@ alias symbol:chacha20poly1305_decrypt_sg_inplace libchacha20poly1305
 alias symbol:crypto_engine_register_aeads crypto_engine
 alias symbol:bt_sock_reclassify_lock bluetooth
 alias symbol:rtw88xxa_set_channel rtw88_88xxa
+alias symbol:brcmu_pktq_pdeq_match brcmutil
 alias symbol:v4l2_vp9_kf_partition_probs v4l2_vp9
 alias symbol:btbcm_setup_patchram btbcm
 alias symbol:chacha_crypt libchacha
@@ -179,6 +185,8 @@ alias symbol:nfnetlink_subsys_unregister nfnetlink
 alias symbol:hci_cmd_sync_queue bluetooth
 alias symbol:rtw89_fw_h2c_update_beacon rtw89_core
 alias symbol:rtw_sdio_pm_ops rtw88_sdio
+alias symbol:brcmf_fil_cmd_data_set brcmfmac
+alias symbol:brcmf_fwvid_unregister_vendor brcmfmac
 alias symbol:rtw89_mac_set_err_status rtw89_core
 alias symbol:rtw_coex_write_indirect_reg rtw88_core
 alias symbol:rtl_addr_delay rtlwifi
@@ -211,6 +219,7 @@ alias symbol:rtw_fw_do_iqk rtw88_core
 alias symbol:rtl_query_rxpwrpercentage rtlwifi
 alias symbol:crypto_engine_unregister_aead crypto_engine
 alias symbol:rtw89_mac_get_err_status rtw89_core
+alias symbol:brcmf_fil_bsscfg_data_set brcmfmac
 alias symbol:bt_sock_link bluetooth
 alias symbol:rtw89_fw_h2c_txtime_cmac_tbl_g7 rtw89_core
 alias symbol:rtw89_phy_rfk_txgapk_and_wait rtw89_core
@@ -233,6 +242,7 @@ alias symbol:crypto_engine_register_ahash crypto_engine
 alias symbol:rtw_phy_set_tx_power_level rtw88_core
 alias symbol:zs_create_pool zsmalloc
 alias symbol:rtw_phy_load_tables rtw88_core
+alias symbol:brcmu_dotrev_str brcmutil
 alias symbol:v4l2_jpeg_ref_table_luma_qt v4l2_jpeg
 alias symbol:zs_pool_stats zsmalloc
 alias symbol:eeprom_93cx6_readb eeprom_93cx6
@@ -261,7 +271,9 @@ alias symbol:crypto_finalize_akcipher_request crypto_engine
 alias symbol:rtw89_mac_size rtw89_core
 alias symbol:nft_set_catchall_lookup nf_tables
 alias symbol:rtw89_linear_to_db_quarter rtw89_core
+alias symbol:brcmu_pktq_penq_head brcmutil
 alias symbol:snd_rawmidi_transmit_ack snd_rawmidi
+alias symbol:BRCMFMAC brcmfmac
 alias symbol:hci_cmd_sync_lookup_entry bluetooth
 alias symbol:hci_drv_process_cmd bluetooth
 alias symbol:rtw89_phy_write_rf_v1 rtw89_core
@@ -279,6 +291,7 @@ alias symbol:crypto_engine_unregister_akcipher crypto_engine
 alias symbol:btintel_configure_setup btintel
 alias symbol:rtw89_phy_read_rf_v2 rtw89_core
 alias symbol:zs_obj_write zsmalloc
+alias symbol:brcmf_fil_xtlv_data_get brcmfmac
 alias symbol:rtw89_core_register rtw89_core
 alias symbol:LZ4_resetStreamHC lz4hc_compress
 alias symbol:nft_request_module nf_tables
@@ -291,6 +304,7 @@ alias symbol:rtw89_core_get_ch_dma_v1 rtw89_core
 alias symbol:rmi_driver_resume rmi_core
 alias symbol:rtw8812a_hw_spec rtw88_8812a
 alias symbol:rtw89_phy_get_syn_sel rtw89_core
+alias symbol:brcmf_fil_iovar_data_get brcmfmac
 alias symbol:rtw_tx_write_data_h2c_get rtw88_core
 alias symbol:br_port_flag_is_set bridge
 alias symbol:llc_add_pack llc
@@ -309,6 +323,7 @@ alias symbol:rtw_pwr_seq_parser rtw88_core
 alias symbol:dm_savepowerindex rtl8192c_common
 alias symbol:btrtl_set_quirks btrtl
 alias symbol:crypto_engine_unregister_kpp crypto_engine
+alias symbol:brcmu_pktq_pdeq brcmutil
 alias symbol:l2cap_chan_set_defaults bluetooth
 alias symbol:roccat_connect hid_roccat
 alias symbol:l2cap_chan_hold bluetooth
@@ -360,6 +375,8 @@ alias symbol:ip_tunnel_delete_net ip_tunnel
 alias symbol:nf_tables_trans_destroy_flush_work nf_tables
 alias symbol:rtw89_fw_h2c_assoc_cmac_tbl rtw89_core
 alias symbol:rtw8822c_hw_spec rtw88_8822c
+alias symbol:brcmu_pktq_penq brcmutil
+alias symbol:brcmu_boardrev_str brcmutil
 alias symbol:nft_meta_policy nf_tables
 alias symbol:rtl_process_phyinfo rtlwifi
 alias symbol:hci_set_hw_info bluetooth
@@ -396,10 +413,12 @@ alias symbol:rtw89_core_fill_txdesc rtw89_core
 alias symbol:rtw89_query_sar rtw89_core
 alias symbol:btintel_bootup btintel
 alias symbol:nft_meta_inner_eval nf_tables
+alias symbol:brcmu_pktq_mdeq brcmutil
 alias symbol:v4l2_vp9_fw_update_probs v4l2_vp9
 alias symbol:rtl92c_set_fw_joinbss_report_cmd rtl8192c_common
 alias symbol:rtl_deinit_rfkill rtlwifi
 alias symbol:ip_tunnel_siocdevprivate ip_tunnel
+alias symbol:brcmu_pkt_buf_free_skb brcmutil
 alias symbol:rmi_2d_sensor_rel_report rmi_core
 alias symbol:rtl_fill_dummy rtlwifi
 alias symbol:rtl92c_dm_init_edca_turbo rtl8192c_common
@@ -410,10 +429,12 @@ alias symbol:hci_mgmt_chan_unregister bluetooth
 alias symbol:rtw89_core_unregister rtw89_core
 alias symbol:rtl_collect_scan_list rtlwifi
 alias symbol:rtw89_fw_h2c_rf_ps_info rtw89_core
+alias symbol:brcmu_pkt_buf_get_skb brcmutil
 alias symbol:rtw_phy_pwrtrack_thermal_changed rtw88_core
 alias symbol:rtl_swlps_beacon rtlwifi
 alias symbol:udp_tunnel_drop_rx_port udp_tunnel
 alias symbol:snd_rawmidi_kernel_open snd_rawmidi
+alias symbol:brcmu_pktq_flush brcmutil
 alias symbol:v4l2_h264_init_reflist_builder v4l2_h264
 alias symbol:rtw89_fw_h2c_default_cmac_tbl_g7 rtw89_core
 alias symbol:btrtl_download_firmware btrtl
@@ -457,6 +478,7 @@ alias symbol:rtw8821a_hw_spec rtw88_8821a
 alias symbol:nfnetlink_broadcast nfnetlink
 alias symbol:sensor_hub_get_feature hid_sensor_hub
 alias symbol:nft_obj_lookup nf_tables
+alias symbol:brcmf_fil_xtlv_data_set brcmfmac
 alias symbol:bt_accept_enqueue bluetooth
 alias symbol:nft_hook_find_ops_rcu nf_tables
 alias symbol:tun_ptr_free tun
@@ -512,6 +534,7 @@ alias symbol:snd_rawmidi_drain_output snd_rawmidi
 alias symbol:rtl_tx_ackqueue rtlwifi
 alias symbol:rtw89_fw_h2c_dctl_sec_cam_v2 rtw89_core
 alias symbol:hci_get_route bluetooth
+alias symbol:brcmf_set_wsec brcmfmac
 alias symbol:gre_add_protocol gre
 alias symbol:rtw89_alloc_ieee80211_hw rtw89_core
 alias symbol:rtl_cam_add_one_entry rtlwifi
@@ -526,6 +549,7 @@ alias symbol:crypto_transfer_hash_request_to_engine crypto_engine
 alias symbol:crypto_engine_register_ahashes crypto_engine
 alias symbol:l2cap_chan_list bluetooth
 alias symbol:__ip_tunnel_change_mtu ip_tunnel
+alias symbol:brcmf_fweh_register brcmfmac
 alias symbol:nft_meta_set_dump nf_tables
 alias symbol:btbcm_initialize btbcm
 alias symbol:hci_cmd_sync_cancel_sync bluetooth
@@ -537,6 +561,7 @@ alias symbol:btintel_set_msft_opcode btintel
 alias symbol:rtw_sdio_remove rtw88_sdio
 alias symbol:crypto_transfer_skcipher_request_to_engine crypto_engine
 alias symbol:rtw_dump_fw rtw88_core
+alias symbol:brcmu_pktq_pdeq_tail brcmutil
 alias symbol:nft_trace_enabled nf_tables
 alias symbol:_rtl92c_phy_fw_rf_serial_read rtl8192c_common
 alias symbol:l2cap_conn_get bluetooth
@@ -604,6 +629,7 @@ alias symbol:nft_set_do_lookup nf_tables
 alias symbol:rtw89_phy_write32_idx_clr rtw89_core
 alias symbol:btintel_version_info_tlv btintel
 alias symbol:llc_sap_list llc
+alias symbol:brcmf_fil_bsscfg_data_get brcmfmac
 alias symbol:llc_sap_close llc
 alias symbol:rtl_lps_leave rtlwifi
 alias symbol:rtw89_core_deinit rtw89_core
@@ -686,6 +712,7 @@ alias symbol:ip_tunnel_get_link_net ip_tunnel
 alias symbol:rtw_phy_pwrtrack_avg rtw88_core
 alias symbol:rmi_dbg rmi_core
 alias symbol:bt_sock_unlink bluetooth
+alias symbol:brcmf_fil_iovar_data_set brcmfmac
 alias symbol:snd_rawmidi_input_params snd_rawmidi
 alias symbol:nft_meta_get_init nf_tables
 alias symbol:rtw89_phy_set_phy_regs rtw89_core
@@ -708,6 +735,8 @@ alias symbol:rtw_power_off rtw88_core
 alias symbol:nf_tables_deactivate_flowtable nf_tables
 alias symbol:rtl_hal_pwrseqcmdparsing rtlwifi
 alias symbol:btbcm_read_pcm_int_params btbcm
+alias symbol:brcmu_d11_attach brcmutil
+alias symbol:brcmu_pktq_peek_tail brcmutil
 alias symbol:rtw_bf_enable_bfee_su rtw88_core
 alias symbol:ip_tunnel_dellink ip_tunnel
 alias symbol:snd_midi_event_decode snd_seq_midi_event
@@ -726,6 +755,7 @@ alias symbol:poly1305_init libpoly1305
 alias symbol:rtw89_phy_read_rf_v1 rtw89_core
 alias symbol:efuse_power_switch rtlwifi
 alias symbol:nfnl_unlock nfnetlink
+alias symbol:brcmu_pktq_mlen brcmutil
 alias symbol:rtl_ps_disable_nic rtlwifi
 alias symbol:rtw_bf_remove_bfee_mu rtw88_core
 alias symbol:rtl_usb_disconnect rtl_usb
@@ -749,6 +779,7 @@ alias symbol:crypto_transfer_akcipher_request_to_engine crypto_engine
 alias symbol:rtl92c_dm_init rtl8192c_common
 alias symbol:eeprom_93cx6_multireadb eeprom_93cx6
 alias symbol:snd_rawmidi_drain_input snd_rawmidi
+alias symbol:brcmf_cfg80211_mgmt_tx brcmfmac
 alias symbol:rtl92ce_phy_set_rf_on rtl8192c_common
 alias symbol:rtl92c_set_fw_pwrmode_cmd rtl8192c_common
 alias symbol:bt_info bluetooth

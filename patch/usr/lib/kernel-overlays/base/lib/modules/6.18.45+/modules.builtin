@@ -201,9 +201,7 @@ kernel/drivers/gpu/drm/scheduler/gpu-sched.ko
 kernel/drivers/gpu/drm/rockchip/rockchipdrm.ko
 kernel/drivers/gpu/drm/panel/panel-simple-sogou-translater.ko
 kernel/drivers/gpu/drm/panel/panel-sharp-ls054b3sx01.ko
-kernel/drivers/gpu/drm/bridge/display-connector.ko
 kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi.ko
-kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi-i2s-audio.ko
 kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi-cec.ko
 kernel/drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi.ko
 kernel/drivers/gpu/drm/panfrost/panfrost.ko
@@ -380,7 +378,6 @@ kernel/sound/core/snd-seq-device.ko
 kernel/sound/core/seq/snd-seq.ko
 kernel/sound/soc/snd-soc-core.ko
 kernel/sound/soc/codecs/snd-soc-es8316.ko
-kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 kernel/sound/soc/codecs/snd-soc-spdif-rx.ko
 kernel/sound/soc/codecs/snd-soc-spdif-tx.ko
 kernel/sound/soc/codecs/snd-soc-simple-amplifier.ko
